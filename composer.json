@@ -1,0 +1,22 @@
+{
+    "name": "franciscomarques/buscacep",
+    "description": "Busca de CEP online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Marques",
+            "email": "fcfmar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "FranciscoMarques\\BuscaCEP\\": "src"
+        }
+    }
+}
